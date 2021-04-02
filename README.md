@@ -21,6 +21,8 @@ Using my knowledge of JavaScript, Leaflet.js, and geoJSON data, I added major ea
 
 <img src="Earthquake_Challenge/static/images/Delv 2.png">
 
+<img src="Earthquake_Challenge/static/images/Delv 2_popup.png">
+
 ### Deliverable 3: Add an Additional Map
 Using my knowledge of JavaScript and Leaflet.js, I added a third map style to my earthquake map. I chose the dark Mapbox style, as seen below:
 
