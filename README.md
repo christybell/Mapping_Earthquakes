@@ -1,6 +1,6 @@
 # Mapping Earthquakes with JS & APIs
 
-<img src="static/images/earthquake-header.jpg" width="1000" height="300">
+<img src="static/images/earthquake-header.JPG" width="1000" height="300">
 
 ## Project Overview
 The purpose of this project was to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days. To complete this project, I used a URL for GeoJSON earthquake data from the USGS website and retrieved geographical coordinates and the magnitudes of earthquakes for the last seven days. Then, I added the data to a map. I used the JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data. Then, I used the Leaflet library to plot the data on a Mapbox map through an API request and created interactivity for the earthquake data.
