@@ -1,6 +1,6 @@
 # Mapping Earthquakes with JS & APIs
 
-<img src="static/images/earthquake-header.JPG" width="1000" height="300">
+<img src="Earthquake_Challenge/static/images/earthquake-header.JPG" width="1000" height="300">
 
 ## Project Overview
 The purpose of this project was to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days. To complete this project, I used a URL for GeoJSON earthquake data from the USGS website and retrieved geographical coordinates and the magnitudes of earthquakes for the last seven days. Then, I added the data to a map. I used the JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data. Then, I used the Leaflet library to plot the data on a Mapbox map through an API request and created interactivity for the earthquake data.
@@ -14,14 +14,14 @@ The purpose of this project was to visually show the differences between the mag
 ### Deliverable 1: Add Techtonic Plate Data
 Using my knowledge of JavaScript, Leaflet.js, and geoJSON data, I added tectonic plate data using `d3.json()`, added the data using the `geoJSON()` layer, set the tectonic plate `LineString` data to stand out on the map, and added the tectonic plate data to the overlay object with the earthquake data.
 
-<img src="static/images/Delv 1.PNG">
+<img src="Earthquake_Challenge/static/images/Delv 1.PNG">
 
 ### Deliverable 2: Add Major Earthquake Data
 Using my knowledge of JavaScript, Leaflet.js, and geoJSON data, I added major earthquake data to the map using `d3.json()`, and a color and set the radius of the circle based on the magnitude of earthquake, and added a popup marker for each earthquake that displays the magnitude and location of the earthquake using the GeoJSON layer, `geoJSON()`.
 
-<img src="static/images/Delv 2.PNG">
+<img src="Earthquake_Challenge/static/images/Delv 2.PNG">
 
 ### Deliverable 3: Add an Additional Map
 Using my knowledge of JavaScript and Leaflet.js, I added a third map style to my earthquake map. I chose the dark Mapbox style, as seen below:
 
-<img src="static/images/Delv 3.PNG">
+<img src="Earthquake_Challenge/static/images/Delv 3.PNG">
