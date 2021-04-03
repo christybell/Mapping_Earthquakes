@@ -212,13 +212,8 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   // Finally, we add our legend to the map.
   legend.addTo(map);
 
-  // // Accessing the Techtonic Plate GeoJSON URL.
-  // let techtonicPlateData = "https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json";
-
   //Deliverable 1: Step 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.
   d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(function (data) {
-  // d3.json(techtonicPlateData).then(function (data) {
-  // d3.json("PB2002_boundaries.json").then(function (data) {
     // Create a style for the techtonic plate lines.
     let myStyle = {
       color: "#fc5c2b",
